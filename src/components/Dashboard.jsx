@@ -14,14 +14,14 @@ export default function Dashboard() {
                     <div className="col-2 bg-white" style={{ height:"100vh"  }}>
                         <ul className='list-group'>
                             <li className='list-group-item my-2 bg-info '>
-                                <Link className='text-white' to={'../dashboard'}>Profile</Link>
+                                <Link className='text-white nav-link' to={'../dashboard'}>Profile</Link>
                             </li>
 
                             <li className='list-group-item my-2 bg-info '>
-                                <Link className='text-white' to={'about'}>About</Link>
+                                <Link className='text-white nav-link' to={'about'}>About</Link>
                             </li>
                             <li className='list-group-item my-2 bg-info '>
-                                <Link className='text-white' to={'contact'}>Contact</Link>
+                                <Link className='text-white nav-link' to={'contact'}>Contact</Link>
                             </li>
                         </ul>
                     </div>
